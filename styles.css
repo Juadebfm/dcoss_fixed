@@ -2298,10 +2298,6 @@ form .contact-btn:hover {
 
   /* Home */
 
-  .home {
-    margin: 2rem inherit;
-  }
-
   .home .content h3 {
     margin-top: 15rem;
     font-size: 5rem;
@@ -2320,25 +2316,23 @@ form .contact-btn:hover {
   }
 
   .btn-2-width {
-    margin-left: 1.5rem;
-    margin-bottom: 8rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .img-one {
+    height: 60vh;
     margin-bottom: 10rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .img-one-boxes {
     flex-direction: column;
-    padding-top: 0;
+    margin-top: 1rem;
+    height: 100vh;
   }
 
   .img-one-boxes .box {
-    margin-top: 0.2rem;
+    margin-top: 3rem;
     width: 95%;
   }
 
@@ -2347,8 +2341,9 @@ form .contact-btn:hover {
   }
 
   .img-one .img-one-text p {
-    width: 100%;
-    padding: 0;
+    width: 90vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .section-light h2 {
@@ -2371,10 +2366,12 @@ form .contact-btn:hover {
     height: 100vh;
   }
 
+  .img-two-text {
+    margin-bottom: 4rem;
+  }
+
   .img-two-text p {
     font-size: 3.5rem;
-    margin: auto;
-    width: 90%;
   }
 
   .img-two-text .btn,
@@ -2385,12 +2382,17 @@ form .contact-btn:hover {
     background-color: #daa520;
   }
 
+  .img-two-text .btn {
+    margin-top: 3rem;
+  }
   .section-dark h2 {
     font-size: 4rem;
   }
 
   .section-dark p {
-    width: 100%;
+    width: 90vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .img-three {
@@ -2406,7 +2408,13 @@ form .contact-btn:hover {
   }
 
   .img-three .img-three-text img {
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .img-three .img-three-text span {
+    color: #ccc;
+    font-size: 4rem;
+    margin-bottom: 2rem;
   }
 
   .section-dark-link .btn {
@@ -2416,6 +2424,162 @@ form .contact-btn:hover {
     background-color: #daa520;
   }
 
+  /* ABOUT */
+
+  .about .about-box .heading {
+    font-size: 3rem;
+  }
+  .about-box-grid_content {
+    width: 90vw;
+  }
+
+  .core_values {
+    font-size: 4rem;
+    font-family: "Mulish", sans-serif;
+  }
+
+  .core_values_content p {
+    width: 90vw;
+  }
+
+  .second .content-box {
+    flex-direction: column;
+  }
+
+  .second .content-box .content-box-box {
+    font-size: 1.7rem;
+    width: 90vw;
+    height: 400px;
+    padding: 4rem 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    margin-top: 1rem;
+  }
+
+  .row .content {
+    text-align: center;
+  }
+
+  .row .content .image {
+    width: 90vw;
+  }
+
+  .about .row .image img {
+    width: 93vw;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .Aboutus .swiper {
+    height: 100vh;
+  }
+
+  .Aboutus .swiper .swiper-wrapper .swiper-slide .swiper-three_div {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .swiper-three_div p {
+    width: 100%;
+  }
+
+  .swiper-three_div img {
+    width: 90vw;
+    padding: 0;
+    margin: 0;
+    order: -1;
+  }
+
+  .swiper .swiper-button-next,
+  .swiper .swiper-button-prev {
+    display: none;
+  }
+
+  .row .image {
+    width: 100%;
+    margin: auto;
+  }
+
+  .row .image img {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* ABOUT */
+  /* SERVICES */
+  .mySwiper {
+    height: 100vh;
+  }
+
+  .service .swiper-slide {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service .swiper-slide .subtitle {
+    font-size: 3rem;
+    width: 90vw;
+  }
+
+  .service .swiper-slide .text p {
+    width: 90vw;
+    text-align: start;
+    margin-left: -8rem;
+  }
+
+  .menu .heading {
+    margin-top: 4rem;
+    font-size: 3rem;
+  }
+
+  .menu .box-container .box {
+    width: 90vw;
+    padding: 2rem;
+    margin: auto;
+  }
+
+  .menu .box-container .box img {
+    height: 17rem;
+    width: 100%;
+  }
+  /* SERVICES */
+
+  /* CONTACT */
+  .contact .heading {
+    font-size: 3rem;
+  }
+
+  .contact .row-content {
+    flex-direction: column;
+  }
+
+  .contact .row-content img {
+    width: 90vw;
+    height: auto;
+  }
+
+  iframe {
+    width: 90vw;
+  }
+
+  .contact .row form h3 {
+    font-size: 3rem;
+  }
+
+  .contact .row form {
+    padding: 3rem 0.5rem;
+    width: 95vw;
+  }
+  /* CONTACT */
+
+  /* FOOTER */
   .grid {
     display: block;
   }
@@ -2550,8 +2714,29 @@ form .contact-btn:hover {
     background-color: #daa520;
   }
 
+  .btn-2-width {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   .img-one-boxes {
     flex-direction: column;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .img-one-text .border {
+    padding-top: 15rem;
+  }
+
+  .img-one .img-one-text p {
+    width: 65%;
+  }
+
+  .img-two {
+    height: 45vh;
   }
 
   .img-two-text {
@@ -2571,11 +2756,26 @@ form .contact-btn:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
+    margin-bottom: 5rem;
   }
 
   .img-three {
     height: 50vh;
+  }
+
+  .section-light {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    background-color: #010103;
+  }
+
+  .section-dark {
+    margin-top: 13rem;
+  }
+
+  .section-dark p {
+    width: 65%;
   }
 
   .section-dark-link .btn {
@@ -2595,6 +2795,10 @@ form .contact-btn:hover {
     font-size: 1.7rem;
     width: 100%;
     background-color: #daa520;
+  }
+
+  .contact .row-content {
+    flex-direction: column;
   }
 }
 
