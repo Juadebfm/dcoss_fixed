@@ -2786,8 +2786,7 @@ form .contact-btn:hover {
   }
 
   form {
-    display: block;
-    margin-top: 1em;
+    display: none;
   }
 
   .grid form button {
@@ -2840,5 +2839,9 @@ form .contact-btn:hover {
 
   .section-dark-link .btn {
     width: 30%;
+  }
+
+  form {
+    display: block;
   }
 }
