@@ -986,7 +986,7 @@ input:-webkit-autofill:active {
 
 .products .heading {
   margin-top: 9rem;
-  text-align: left;
+  text-align: center;
   padding-left: 3rem;
 }
 
@@ -1005,13 +1005,18 @@ input:-webkit-autofill:active {
 .products .box-container .box:hover {
   background: #13131a;
 }
+.products .box-container .box:hover a i {
+  border: 1px solid #ccc;
+  background-color: #daa520;
+}
 
 .products .box-container .box .icons a i {
   height: 5rem;
   width: 5rem;
   line-height: 5rem;
   font-size: 2.5rem;
-  border: var(--border);
+
+  border-radius: 50%;
   color: #ccc;
   margin: 0.3rem;
 }
@@ -1059,7 +1064,6 @@ input:-webkit-autofill:active {
 }
 
 .review .box-container .box {
-  border: var(--border);
   text-align: center;
   padding: 3rem 2rem;
 }
