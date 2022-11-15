@@ -2844,4 +2844,11 @@ form .contact-btn:hover {
   form {
     display: block;
   }
+
+  .btn-2-width {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
 }
