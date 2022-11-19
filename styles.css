@@ -984,7 +984,7 @@ input:-webkit-autofill:active {
 
 .wrapper img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .wrapper p {
   color: #ccc;
@@ -1028,6 +1028,7 @@ input:-webkit-autofill:active {
 .membre .text {
   margin: 15px 10px 15px 0px;
   font-size: 1.6rem;
+  font-family: "Mulish", sans-serif;
 }
 .membre .overly {
   height: 0;
@@ -2549,6 +2550,7 @@ form .contact-btn:hover {
     color: #daa520;
     font-size: 4rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 
   .section-dark-link .btn {
