@@ -1330,7 +1330,7 @@ input:-webkit-autofill:active {
   color: #ccc;
   text-transform: none;
   background: none;
-  font-family: "Raleway", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 1.6rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1368,7 +1368,7 @@ input:-webkit-autofill:active {
 }
 
 ::placeholder {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .contact .row form .inputBox textarea::placeholder {
