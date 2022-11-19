@@ -1372,19 +1372,23 @@ input:-webkit-autofill:active {
 }
 
 .contact .row form .inputBox textarea::placeholder {
-  font-family: "Raleway", sans-serif;
+  font-family: "Mulish", sans-serif;
   padding-left: 6px;
+  margin-top: 50px;
 }
 
 form .contact-btn {
-  padding: 0.8rem 2.9rem;
+  width: 9.1em;
+  height: 3.1em;
+  margin: 0 1rem;
+  padding: 15px 29px;
   border-radius: 3px;
   font-size: 1.6rem;
   font-weight: 600;
+  background-color: #daa520;
   color: #010103;
-  background-color: #bbb;
-  font-family: "Raleway", sans-serif;
   transition: 0.2s ease;
+  font-family: "Mulish", sans-serif;
 }
 
 form .contact-btn:hover {
@@ -2697,6 +2701,10 @@ form .contact-btn:hover {
     font-size: 3rem;
   }
 
+  .contact .row {
+    flex-direction: column;
+  }
+
   .contact .row-content {
     flex-direction: column;
   }
@@ -2926,10 +2934,10 @@ form .contact-btn:hover {
     width: 60%;
     background-color: #daa520;
   }
-
+  /* 
   form {
     display: none;
-  }
+  } */
 
   .grid form button {
     padding: 1.2rem 2.9rem;
