@@ -423,7 +423,6 @@ input:-webkit-autofill:active {
   color: #ccc;
   font-size: 6rem;
   font-family: "Mulish", sans-serif;
-  line-height: 1.5;
   font-weight: lighter;
   text-align: justify;
 }
@@ -557,18 +556,18 @@ input:-webkit-autofill:active {
 
 .img-one {
   background: #010103;
-  min-height: 300px;
+  min-height: 80vh;
 }
 
 .img-two {
   background-image: url("/Images/here.jpg");
-  height: 350px;
+  height: 80vh;
 }
 
 /* PARTNERS SECTIONS */
 .img-three {
   background-image: url("/Images/a\ \(2\).jpg");
-  height: 50vh;
+  height: 80vh;
 }
 /* PARTNERS SECTIONS */
 
@@ -614,9 +613,6 @@ input:-webkit-autofill:active {
 }
 
 /* PARTNER SECTION */
-.img-three-text {
-  display: none;
-}
 
 .img-three .img-three-text img {
   width: 180px;
@@ -937,7 +933,7 @@ input:-webkit-autofill:active {
 }
 
 .service .swiper-slide {
-  color: #fff;
+  color: #ccc;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 40px;
@@ -991,7 +987,7 @@ input:-webkit-autofill:active {
   height: auto;
 }
 .wrapper p {
-  color: #fff;
+  color: #ccc;
 }
 .middle {
   top: 50%;
@@ -1019,19 +1015,19 @@ input:-webkit-autofill:active {
   transition: all 0.5s ease-in;
 }
 .membre .name {
-  color: #fff;
+  color: #ccc;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 .membre .job {
-  color: #fff;
+  color: #daa520;
   font-size: 18px;
   font-weight: 600;
 }
 .membre .text {
   margin: 15px 10px 15px 0px;
-  font-size: 14px;
+  font-size: 1.6rem;
 }
 .membre .overly {
   height: 0;
@@ -1064,11 +1060,16 @@ input:-webkit-autofill:active {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background-color: #fff;
+  background-color: #ccc;
   display: block;
   text-align: center;
   margin-right: 5px;
   color: #000;
+  border-radius: 5px;
+}
+
+.membre .social-icones .icon:hover {
+  background-color: #daa520;
 }
 .membre .social-icones .icon i {
   font-size: 40px;
@@ -2884,17 +2885,18 @@ form .contact-btn:hover {
     background-color: #daa520;
   }
 
+  .img-three {
+    height: 50vh;
+  }
+
   .img-three .img-three-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    padding-top: 10rem;
     margin-bottom: 5rem;
-  }
-
-  .img-three {
-    height: 50vh;
   }
 
   .section-light {
@@ -2953,8 +2955,9 @@ form .contact-btn:hover {
     margin-top: 3rem;
   }
 
-  .img-three {
-    height: 28vh;
+  .img-three,
+  .img-two {
+    height: 50vh;
   }
 
   .img-three {
