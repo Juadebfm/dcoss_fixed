@@ -1070,6 +1070,10 @@ input:-webkit-autofill:active {
   margin-right: 5px;
   color: #000;
 }
+.membre .social-icones .icon i {
+  font-size: 40px;
+}
+
 .membre .to-top {
   bottom: 0;
   transition: all 0.5s ease-in;
