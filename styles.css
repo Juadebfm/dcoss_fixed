@@ -813,6 +813,11 @@ input:-webkit-autofill:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: grab;
+}
+
+.swiper-slide:active {
+  cursor: grabbing;
 }
 
 .swiper-three_div {
