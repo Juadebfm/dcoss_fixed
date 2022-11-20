@@ -142,6 +142,8 @@ input:-webkit-autofill:active {
   font-weight: bold;
 }
 
+/* HEADER SECTION */
+
 .header {
   background: #010103e6;
   display: flex;
@@ -321,6 +323,11 @@ input:-webkit-autofill:active {
   text-transform: uppercase;
   color: #bbb;
   text-shadow: 2px 1px 1px #13131a;
+  border-left: 5px solid #13131a;
+  border-top: 5px solid #13131a;
+  padding-top: 30px;
+  padding-left: 30px;
+  border-radius: 5px;
 }
 
 .home .content h3 span {
@@ -344,7 +351,7 @@ input:-webkit-autofill:active {
   padding: 1.5rem 2.9rem;
   border-radius: 3px;
   font-size: 1.6rem;
-  font-weight: 800;
+  font-weight: 600;
   color: #010103;
   background-color: #bbb;
   font-family: "Raleway", sans-serif;
@@ -583,6 +590,7 @@ input:-webkit-autofill:active {
   font-weight: 400;
   line-height: 1.8;
   text-transform: uppercase;
+  font-family: "Mulish", sans-serif;
 }
 .img-two-text span {
   font-family: "Mulish", sans-serif;
@@ -598,7 +606,7 @@ input:-webkit-autofill:active {
   font-weight: 600;
   background-color: #ccc;
   color: #010103;
-  font-family: "Raleway", sans-serif;
+  font-family: "Mulish", sans-serif;
   transition: 0.2s ease;
 }
 
@@ -620,7 +628,156 @@ input:-webkit-autofill:active {
 }
 
 /* PARTNER SECTION */
+.wrapper_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.wrapper_header span {
+  color: #ccc;
+  padding-top: 3rem;
+  text-align: center;
+  margin-top: 6rem;
+  padding-bottom: 3rem;
+  font-size: 6rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: lighter;
+}
+.wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper p {
+  color: #ccc;
+}
+.middle {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  padding: 50px;
+}
+.membre {
+  box-shadow: 0px 2px 6px 0px #ccc;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+}
+.membre .info {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transition: all 0.5s ease-in;
+}
+.membre .name {
+  color: #ccc;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.membre .job {
+  color: #daa520;
+  font-size: 18px;
+  font-weight: 600;
+}
+.membre .text {
+  margin: 15px 10px 15px 0px;
+  font-size: 1.6rem;
+  font-family: "Mulish", sans-serif;
+}
+.membre .overly {
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+  transition: all 0.5s ease-in;
+}
+.membre .top {
+  top: -100%;
+  left: 0;
+}
+.membre .bottom {
+  bottom: -100%;
+  left: 0;
+  height: 100%;
+}
+.membre .left {
+  top: 0;
+  right: -100%;
+  height: 100%;
+}
+.membre .social-icones {
+  display: inline-flex;
+  position: relative;
+}
+.membre .social-icones .icon {
+  width: 25px;
+  height: 25px;
+  line-height: 40px;
+  background-color: #ccc;
+  display: block;
+  text-align: center;
+  margin-right: 5px;
+  color: #000;
+  border-radius: 5px;
+}
+
+.membre .social-icones .icon:hover {
+  background-color: #daa520;
+}
+.membre .social-icones .icon i {
+  font-size: 25px;
+}
+
+.membre .to-top {
+  bottom: 0;
+  transition: all 0.5s ease-in;
+}
+.membre:hover .overly {
+  height: 100%;
+  padding: 20px 10px;
+}
+.membre:hover .info {
+  position: absolute;
+  bottom: -80px;
+  padding: 0;
+  transition: all 0.5s ease-in;
+}
+.membre:hover .top {
+  top: 0;
+  bottom: 0px;
+}
+.membre:hover .bottom {
+  bottom: 0;
+}
+.membre:hover .left {
+  right: 0;
+}
+.membre:hover .to-top {
+  bottom: 100% !important;
+  transition: all 0.5s ease-in;
+}
+@media screen and (max-width: 868px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+}
 /* PARRALAX ENDS */
 
 /* ABOUT SECTION STARTS================++++ */
@@ -984,143 +1141,6 @@ input:-webkit-autofill:active {
   text-transform: none;
 }
 /* MENU SERVICE SECTION ENDS */
-
-/* New Add */
-
-.wrapper img {
-  width: 100%;
-  height: 100%;
-}
-.wrapper p {
-  color: #ccc;
-}
-.middle {
-  top: 50%;
-  transform: translateY(-50%);
-  position: absolute;
-}
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-  padding: 50px;
-}
-.membre {
-  box-shadow: 0px 2px 6px 0px #ccc;
-  position: relative;
-  overflow: hidden;
-  transition: all 0.5s ease-in;
-}
-.membre .info {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px 10px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  transition: all 0.5s ease-in;
-}
-.membre .name {
-  color: #ccc;
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.membre .job {
-  color: #daa520;
-  font-size: 18px;
-  font-weight: 600;
-}
-.membre .text {
-  margin: 15px 10px 15px 0px;
-  font-size: 1.6rem;
-  font-family: "Mulish", sans-serif;
-}
-.membre .overly {
-  height: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 0;
-  position: absolute;
-  width: 100%;
-  display: block;
-  transition: all 0.5s ease-in;
-}
-.membre .top {
-  top: -100%;
-  left: 0;
-}
-.membre .bottom {
-  bottom: -100%;
-  left: 0;
-  height: 100%;
-}
-.membre .left {
-  top: 0;
-  right: -100%;
-  height: 100%;
-}
-.membre .social-icones {
-  display: inline-flex;
-  position: relative;
-}
-.membre .social-icones .icon {
-  width: 25px;
-  height: 25px;
-  line-height: 40px;
-  background-color: #ccc;
-  display: block;
-  text-align: center;
-  margin-right: 5px;
-  color: #000;
-  border-radius: 5px;
-}
-
-.membre .social-icones .icon:hover {
-  background-color: #daa520;
-}
-.membre .social-icones .icon i {
-  font-size: 25px;
-}
-
-.membre .to-top {
-  bottom: 0;
-  transition: all 0.5s ease-in;
-}
-.membre:hover .overly {
-  height: 100%;
-  padding: 20px 10px;
-}
-.membre:hover .info {
-  position: absolute;
-  bottom: -80px;
-  padding: 0;
-  transition: all 0.5s ease-in;
-}
-.membre:hover .top {
-  top: 0;
-  bottom: 0px;
-}
-.membre:hover .bottom {
-  bottom: 0;
-}
-.membre:hover .left {
-  right: 0;
-}
-.membre:hover .to-top {
-  bottom: 100% !important;
-  transition: all 0.5s ease-in;
-}
-@media screen and (max-width: 868px) {
-  .wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 600px) {
-  .wrapper {
-    grid-template-columns: 1fr;
-    padding: 20px;
-  }
-}
-/* New Add */
 
 .products .heading {
   margin-top: 9rem;
@@ -2061,6 +2081,12 @@ form .contact-btn:hover {
   .home .content h3 {
     margin-top: 15rem;
     font-size: 5rem;
+
+    border-left: none;
+    border-top: none;
+    padding-top: 0;
+    padding-left: 0;
+    border-radius: 0;
   }
 
   .home .content h3 span {
