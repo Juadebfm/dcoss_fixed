@@ -2171,7 +2171,7 @@ form .contact-btn:hover {
   }
 
   .img-three {
-    height: 65vh;
+    height: 85vh;
   }
 
   .img-three .img-three-text {
@@ -2187,9 +2187,7 @@ form .contact-btn:hover {
   }
 
   .img-three .img-three-text span {
-    color: #ccc;
-    font-size: 4rem;
-    margin-bottom: 2rem;
+    visibility: hidden;
   }
 
   .section-dark-link .btn {
@@ -2197,6 +2195,14 @@ form .contact-btn:hover {
     font-size: 1.7rem;
     width: 90%;
     background-color: #daa520;
+  }
+
+  .wrapper_header span {
+    font-size: 4rem;
+  }
+
+  .membre .text {
+    font-size: 13px;
   }
 
   /* ABOUT */
