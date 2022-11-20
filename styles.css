@@ -371,7 +371,7 @@ input:-webkit-autofill:active {
   padding: 3.5rem;
   height: 300px;
   width: 380px;
-  margin: 2rem;
+  margin: 1rem 2rem;
   border-radius: 10px;
 }
 
@@ -445,7 +445,7 @@ input:-webkit-autofill:active {
 }
 
 .section-light {
-  margin-top: 20rem;
+  margin-top: 3rem;
   margin-bottom: 10rem;
   background-color: #010103;
 }
