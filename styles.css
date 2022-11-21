@@ -729,7 +729,7 @@ input:-webkit-autofill:active {
   width: 25px;
   height: 25px;
   line-height: 40px;
-  background-color: #ccc;
+  background-color: #daa520;
   display: block;
   text-align: center;
   margin-right: 5px;
@@ -738,7 +738,7 @@ input:-webkit-autofill:active {
 }
 
 .membre .social-icones .icon:hover {
-  background-color: #daa520;
+  background-color: #daa520dd;
 }
 .membre .social-icones .icon i {
   font-size: 25px;
