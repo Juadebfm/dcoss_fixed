@@ -669,6 +669,11 @@ input:-webkit-autofill:active {
   overflow: hidden;
   transition: all 0.5s ease-in;
 }
+.membre img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
 .membre .info {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 10px;
