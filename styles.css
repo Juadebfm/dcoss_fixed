@@ -310,7 +310,7 @@ input:-webkit-autofill:active {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: url(/Images/here.jpg) no-repeat;
+  background: url(/here.jpg) no-repeat;
   background-blend-mode: darker;
   background-size: cover;
   background-position: center;
@@ -575,13 +575,13 @@ input:-webkit-autofill:active {
 }
 
 .img-two {
-  background-image: url("/Images/here.jpg");
+  background-image: url("/here.jpg");
   height: 80vh;
 }
 
 /* PARTNERS SECTIONS */
 .img-three {
-  background-image: url("/Images/a\ \(2\).jpg");
+  background-image: url("/a\ \(2\).jpg");
   height: 80vh;
 }
 /* PARTNERS SECTIONS */
@@ -1699,82 +1699,6 @@ form .contact-btn:hover {
   }
 }
 /* Treasury Management */
-
-/* BizMgt */
-.BizMgt {
-  margin-top: 10rem;
-  width: 94%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.BizMgt .content {
-  color: #ccc;
-}
-
-.BizMgt .content a {
-  font-size: 1.6rem;
-}
-
-.BizMgt img {
-  margin-top: 7rem;
-  padding: 10px;
-  width: 45%;
-  float: right;
-  border-radius: 10px;
-}
-.BizMgt .content p {
-  text-align: justify;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-  padding: 0;
-}
-
-.BizMgt .content h2 {
-  font-size: 3.5rem;
-  margin-bottom: 2rem;
-  text-transform: uppercase;
-  text-align: left;
-}
-
-.BizMgt .content h2 {
-  margin-top: 4rem;
-}
-
-.BizMgt .content h3 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  text-transform: uppercase;
-}
-
-.BizMgt .content h4 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  text-transform: capitalize;
-}
-
-.BizMgt .content ol {
-  font-size: 1.6rem;
-  margin-left: 6rem;
-  line-height: 1.5;
-}
-
-.BizMgt .content a {
-  color: #daa520;
-}
-
-.BizMgt .content a:hover {
-  border-bottom: 1px solid #daa520;
-}
-
-.BizMgt .content ol {
-  font-size: 1.6rem;
-  margin-left: 6rem;
-  line-height: 1.5;
-}
 
 /* footer */
 
