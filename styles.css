@@ -790,11 +790,15 @@ input:-webkit-autofill:active {
 }
 @media screen and (max-width: 868px) {
   .wrapper {
-    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media screen and (max-width: 600px) {
   .wrapper {
+    width: 100%;
+    margin: auto;
     grid-template-columns: 1fr;
     padding: 20px;
   }
@@ -2930,6 +2934,10 @@ form .contact-btn:hover {
     min-height: 80vh;
   }
 
+  .home .content {
+    margin-top: 5rem;
+  }
+
   .home .content .btn {
     width: 50%;
     background-color: #daa520;
@@ -2945,7 +2953,7 @@ form .contact-btn:hover {
   .img-one-boxes {
     flex-direction: column;
     margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
   }
 
   .img-one-text .border {
@@ -2961,7 +2969,7 @@ form .contact-btn:hover {
   }
 
   .img-two-text {
-    top: 10%;
+    top: 20%;
   }
 
   .img-two-text .btn,
@@ -2973,7 +2981,7 @@ form .contact-btn:hover {
   }
 
   .img-three {
-    height: 50vh;
+    height: 65vh;
   }
 
   .img-three .img-three-text {
@@ -2986,8 +2994,16 @@ form .contact-btn:hover {
     margin-bottom: 5rem;
   }
 
+  .img-three .img-three-text img {
+    margin-bottom: 1rem;
+  }
+
+  .img-three-text span {
+    display: none;
+  }
+
   .section-light {
-    margin-top: 10rem;
+    margin-top: 0rem;
     margin-bottom: 5rem;
     background-color: #010103;
   }
