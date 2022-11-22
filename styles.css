@@ -1647,147 +1647,58 @@ form .contact-btn:hover {
 .treasury .heading h1 {
   color: #daa520;
 }
+
+.treasury_content {
+  margin-top: 3rem;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.treasury_content .right h2 {
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.treasury_content .right p,
+.treasury_content .left p {
+  line-height: 32.4px;
+}
+
+.treasury_content .left p {
+  margin-top: 2rem;
+}
+
+.treasury_content .right .list {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 32.4px;
+}
+
+.treasury_content .right .list ul {
+  padding-left: 2rem;
+}
+
+.treasury_content .left img {
+  width: 100%;
+}
+
+/* Treasury management media query */
+@media screen and (max-width: 868px) {
+  .treasury_content {
+    place-items: start;
+  }
+}
+@media screen and (max-width: 600px) {
+  .treasury .heading {
+    font-size: 3rem;
+  }
+  .treasury_content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 /* Treasury Management */
-
-/* Business process management */
-.brp {
-  margin-top: 10rem;
-  width: 94%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.brp .content {
-  color: #ccc;
-}
-
-.brp .content a {
-  font-size: 1.6rem;
-}
-
-.brp img {
-  margin-top: 7rem;
-  padding: 10px;
-  width: 45%;
-  float: right;
-  border-radius: 10px;
-}
-.brp .content p {
-  text-align: justify;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-  padding: 0;
-}
-
-.brp .content h2 {
-  font-size: 3.5rem;
-  margin-bottom: 2rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.brp .content h2 {
-  margin-top: 4rem;
-}
-
-.brp .content h3 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  text-transform: uppercase;
-}
-
-.brp .content h4 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  text-transform: capitalize;
-}
-
-.brp .content ol {
-  font-size: 1.6rem;
-  margin-left: 6rem;
-  line-height: 1.5;
-}
-
-.brp .content a {
-  color: #daa520;
-}
-
-.brp .content a:hover {
-  border-bottom: 1px solid #daa520;
-}
-
-/* Deals */
-.Deals {
-  margin-top: 10rem;
-  width: 94%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.Deals .content {
-  color: #ccc;
-}
-
-.Deals .content a {
-  font-size: 1.6rem;
-}
-
-.Deals img {
-  margin-top: 7rem;
-  padding: 10px;
-  width: 45%;
-  float: right;
-  border-radius: 10px;
-}
-.Deals .content p {
-  text-align: justify;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-  padding: 0;
-}
-
-.Deals .content h2 {
-  font-size: 3.5rem;
-  margin-bottom: 2rem;
-  text-transform: uppercase;
-  text-align: left;
-}
-
-.Deals .content h2 {
-  margin-top: 4rem;
-}
-
-.Deals .content h3 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  text-transform: uppercase;
-}
-
-.Deals .content h4 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  text-transform: capitalize;
-}
-
-.Deals .content ol {
-  font-size: 1.6rem;
-  margin-left: 6rem;
-  line-height: 1.5;
-}
-
-.Deals .content a {
-  color: #daa520;
-}
-
-.Deals .content a:hover {
-  border-bottom: 1px solid #daa520;
-}
 
 /* BizMgt */
 .BizMgt {
