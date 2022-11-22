@@ -834,7 +834,7 @@ input:-webkit-autofill:active {
 }
 
 .about-box-grid_content {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #bbb;
   text-align: center;
   width: 55%;
@@ -849,14 +849,14 @@ input:-webkit-autofill:active {
   display: block;
   margin-top: 10rem;
   font-size: 60px;
-  font-weight: lighter;
+  font-weight: 600;
   text-align: center;
   font-family: "Mulish", sans-serif;
   color: #bbb;
 }
 
 .core_values_content p {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #bbb;
   text-align: center;
   width: 45%;
@@ -881,14 +881,14 @@ input:-webkit-autofill:active {
   flex-wrap: wrap;
   text-align: center;
   color: #ccc;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin: auto;
   margin-bottom: 1.5rem;
   gap: 4rem;
 }
 
 .second .content-box .content-box-box {
-  font-size: 1.7rem;
+  font-size: 18px;
   width: 43%;
   height: 340px;
   margin-bottom: 2rem;
@@ -903,7 +903,7 @@ input:-webkit-autofill:active {
 
 .second .content-box .content-box-box span {
   border-top: 3px solid #13131a;
-  font-size: 2.5rem;
+  font-size: 25px;
   padding-top: 3rem;
   text-align: center;
   color: #daa520;
@@ -916,7 +916,7 @@ input:-webkit-autofill:active {
 }
 
 .second .content-box .content-box-box i {
-  font-size: 3rem;
+  font-size: 30px;
   color: #daa520;
 }
 
@@ -956,17 +956,17 @@ input:-webkit-autofill:active {
 
 .about .row .content h4 {
   margin-top: 1rem;
-  font-size: 2.5rem;
+  font-size: 25px;
   color: #ccc;
-  font-weight: bold;
+  font-weight: 600;
   color: #daa520;
 }
 
 .about .row .content h5 {
   margin-top: 0.8rem;
-  font-size: 1.6rem;
+  font-size: 18px;
   color: #ccc;
-  font-weight: light;
+  font-weight: 600;
 }
 
 .about .row .content i {
@@ -975,10 +975,10 @@ input:-webkit-autofill:active {
 }
 
 .about .row .content p {
-  font-size: 1.7rem;
+  font-size: 18px;
   color: #bbb;
   padding: 1rem 0;
-  line-height: 2.2;
+  line-height: 2;
 }
 
 .swiper {
@@ -1063,12 +1063,14 @@ input:-webkit-autofill:active {
   font-size: 1.7rem;
   line-height: 1.8;
   color: #ccc;
+  width: inherit;
 }
 
 .menu .box-container .box h3 {
   color: #daa520;
   font-size: 2rem;
   padding: 1rem 0;
+  font-family: "Mulish", sans-serif;
 }
 
 .menu .box-container .box a {
@@ -1169,6 +1171,7 @@ input:-webkit-autofill:active {
 
 .service .swiper-slide .text p {
   line-height: 1.8;
+  font-size: 20px;
   font-weight: 200 !important;
   margin-top: 2rem;
   text-transform: none;
