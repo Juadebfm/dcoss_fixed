@@ -1067,7 +1067,6 @@ input:-webkit-autofill:active {
   font-size: 1.7rem;
   line-height: 1.8;
   color: #ccc;
-  width: inherit;
 }
 
 .menu .box-container .box h3 {
@@ -2733,7 +2732,7 @@ form .contact-btn:hover {
   /* ABOUT */
   /* SERVICES */
   .mySwiper {
-    height: 100vh;
+    height: 80vh;
   }
 
   .service .swiper-slide {
@@ -2750,7 +2749,7 @@ form .contact-btn:hover {
   }
 
   .service .swiper-slide .text p {
-    width: 90vw;
+    width: 88vw;
     text-align: start;
     margin-left: -8rem;
   }
