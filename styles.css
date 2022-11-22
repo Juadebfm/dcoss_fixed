@@ -2156,7 +2156,7 @@ form .contact-btn:hover {
     width: 100%;
   }
 
-  .section-light h2 {
+  .section-light span {
     font-size: 4rem;
   }
 
@@ -2195,7 +2195,7 @@ form .contact-btn:hover {
   .img-two-text .btn {
     margin-top: 3rem;
   }
-  .section-dark h2 {
+  .section-dark span {
     font-size: 4rem;
   }
 
