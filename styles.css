@@ -322,7 +322,7 @@ input:-webkit-autofill:active {
 }
 
 .home .content h3 {
-  margin-top: 9rem;
+  margin-top: 5rem;
   font-size: 6rem;
   font-family: "Mulish", sans-serif;
   text-transform: uppercase;
@@ -1633,74 +1633,21 @@ form .contact-btn:hover {
   font-size: 2rem;
 }
 
+/* Treasury Management */
 .treasury {
   margin-top: 10rem;
-  width: 94%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.treasury .content {
   color: #ccc;
+  font-size: 18px;
 }
 
-.treasury .content a {
-  font-size: 1.6rem;
+.treasury .heading {
+  text-align: start;
 }
 
-.treasury img {
-  margin-top: 6.8rem;
-  padding: 5px;
-  width: 45%;
-  float: right;
-  border-radius: 10px;
-}
-.treasury .content p {
-  text-align: justify;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-  padding: 0;
-}
-
-.treasury .content h2 {
-  font-size: 3.5rem;
-  margin-bottom: 2rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.treasury .content h2 {
-  margin-top: 4rem;
-}
-
-.treasury .content h3 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  text-transform: uppercase;
-}
-
-.treasury .content h4 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  text-transform: capitalize;
-}
-
-.treasury .content ol {
-  font-size: 1.6rem;
-  margin-left: 6rem;
-  line-height: 1.5;
-}
-
-.treasury .content a {
+.treasury .heading h1 {
   color: #daa520;
 }
-
-.treasury .content a:hover {
-  border-bottom: 1px solid #daa520;
-}
+/* Treasury Management */
 
 /* Business process management */
 .brp {
@@ -3068,7 +3015,6 @@ form .contact-btn:hover {
     align-items: center;
     justify-content: space-around;
     margin: auto;
-    margin-left: -20rem;
   }
 
   .section-dark-link .btn {
