@@ -117,8 +117,13 @@ input:-webkit-autofill:active {
 .btn-2-width {
   align-self: center;
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 5rem;
+}
+
+.btn-2-width a {
+  font-size: 1.8rem;
+  font-weight: 400;
 }
 
 .btn-2 {
@@ -132,14 +137,14 @@ input:-webkit-autofill:active {
   background: #010103;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: -1px -1px 3px #ccc;
+  box-shadow: -1px 1px 3px #daa520;
   transition: 0.3s;
 }
 
 .btn-2:hover {
   color: #010103;
-  background: #bbb;
-  font-weight: bold;
+  background: #daa520;
+  box-shadow: -1px 1px 1px #010103;
 }
 
 /* HEADER SECTION */
@@ -323,9 +328,9 @@ input:-webkit-autofill:active {
   text-transform: uppercase;
   color: #bbb;
   text-shadow: 2px 1px 1px #13131a;
-  border-left: 5px solid #13131a;
-  border-top: 5px solid #13131a;
-  padding-top: 30px;
+  border-left: 1px solid #daa520;
+  border-top: 1px solid #daa520;
+  padding-top: 15px;
   padding-left: 30px;
   border-radius: 5px;
 }
@@ -383,8 +388,9 @@ input:-webkit-autofill:active {
 }
 
 .img-one-boxes .box .box-text {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.8;
+  font-weight: 400 !important;
   color: #bbb;
   padding-bottom: 2rem;
   width: 100%;
@@ -414,7 +420,7 @@ input:-webkit-autofill:active {
 
 /* Image one  */
 .img-one {
-  margin-top: 10rem;
+  margin-top: 5rem;
   height: auto;
 }
 
@@ -430,7 +436,7 @@ input:-webkit-autofill:active {
   color: #ccc;
   font-size: 6rem;
   font-family: "Mulish", sans-serif;
-  font-weight: lighter;
+  font-weight: 600;
   text-align: justify;
 }
 
@@ -447,12 +453,12 @@ input:-webkit-autofill:active {
   width: 50%;
   margin: auto auto;
   margin-top: 2rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.8;
 }
 
 .section-light {
-  margin-top: 3rem;
+  margin-top: 0.5rem;
   margin-bottom: 10rem;
   background-color: #010103;
 }
@@ -465,12 +471,13 @@ input:-webkit-autofill:active {
   gap: 5rem;
 }
 
-.section-light h2 {
+.section-light span {
   color: #ccc;
+  display: block;
   text-align: center;
   margin-bottom: 4rem;
   font-size: 6rem;
-  font-weight: lighter;
+  font-weight: 600;
   font-family: "Mulish", sans-serif;
 }
 
@@ -506,14 +513,15 @@ input:-webkit-autofill:active {
   margin-bottom: 8rem;
 }
 
-.section-dark h2 {
+.section-dark span {
   color: #ccc;
+  display: block;
   padding-top: 3rem;
   text-align: center;
   padding-bottom: 3rem;
   font-size: 6rem;
   font-family: "Mulish", sans-serif;
-  font-weight: lighter;
+  font-weight: 600;
 }
 
 .section-dark p {
@@ -591,7 +599,15 @@ input:-webkit-autofill:active {
   line-height: 1.8;
   text-transform: uppercase;
   font-family: "Mulish", sans-serif;
+  padding-top: 3rem;
 }
+
+/* Important */
+.img-two-text p {
+  margin: auto 50px;
+}
+/* Important */
+
 .img-two-text span {
   font-family: "Mulish", sans-serif;
 }
@@ -642,7 +658,7 @@ input:-webkit-autofill:active {
   padding-bottom: 3rem;
   font-size: 6rem;
   font-family: "Mulish", sans-serif;
-  font-weight: lighter;
+  font-weight: 600;
 }
 .wrapper img {
   width: 100%;
@@ -2564,9 +2580,12 @@ form .contact-btn:hover {
     margin-bottom: 4rem;
   }
 
+  /* Important */
   .img-two-text p {
     font-size: 3.5rem;
+    margin: auto 20px;
   }
+  /* Important */
 
   .img-two-text .btn,
   .img-three-text .btn {
