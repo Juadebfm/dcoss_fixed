@@ -1522,6 +1522,8 @@ form .contact-btn:hover {
   padding: 1rem 0;
 }
 
+/* Privacy Policy */
+
 .privacy-policy {
   width: 93%;
   margin-top: 10rem;
@@ -1551,11 +1553,18 @@ form .contact-btn:hover {
 }
 
 .privacy-policy p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #ccc;
   margin-bottom: 2rem;
   line-height: 1.8;
 }
+
+.privacy-policy .email_link {
+  color: #daa520;
+  cursor: pointer;
+}
+
+/* Privacy Policy */
 
 .FAQ {
   width: 93%;
@@ -1566,7 +1575,7 @@ form .contact-btn:hover {
 
 .FAQ h1 {
   font-size: 3.5rem;
-  color: #ccc;
+  color: #daa520;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -1585,6 +1594,7 @@ form .contact-btn:hover {
 }
 
 .FAQ .FAQ-content h3 {
+  font-family: "Mulish", sans-serif;
   font-size: 2.25rem;
   color: #ccc;
   padding-bottom: 1rem;
@@ -1593,7 +1603,8 @@ form .contact-btn:hover {
 }
 
 .FAQ .FAQ-content p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+
   line-height: 1.8;
   color: #ccc;
   margin-bottom: 2rem;
@@ -1613,24 +1624,23 @@ form .contact-btn:hover {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  padding: 0.9rem 3rem;
-  width: 150px;
+  padding: 15px 29px 15px 29px;
+  font-weight: 500;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.7rem;
+  font-size: 1rem;
   background: #daa520;
   border-radius: 3px;
   cursor: pointer;
 }
 
 .FAQ button:hover {
-  letter-spacing: 0.1rem;
   background: hsla(43, 74%, 49%, 0.807);
 }
 
 .FAQ button a {
   color: #010103;
-  font-size: 2rem;
+  font-size: 16px;
 }
 
 /* Treasury Management */
