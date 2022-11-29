@@ -1748,11 +1748,13 @@ form .contact-btn:hover {
   margin: 3rem auto;
 }
 
-.grid-3 ul li a {
+.grid-3 ul li a,
+.grid-2 ul li a {
   color: #ccc;
 }
 
-.grid-3 ul li a:hover {
+.grid-3 ul li a:hover,
+.grid-2 ul li a:hover {
   color: #daa520;
 }
 
